@@ -85,53 +85,5 @@ The RL environment is designed to facilitate the dynamic selection of text featu
 2. Explores the integration of BERT embeddings into an RL framework.
 3. Provides solutions to common challenges in text classification, such as class imbalance and sequence length variability.
 
----
-
-## Installation and Usage
-
-### Prerequisites
-- Python 3.8+
-- JAX, NumPy, PyTorch, and other dependencies listed in `requirements.txt`.
-
-### Steps to Run the Project
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/dynamic-feature-selection-text.git
-   cd dynamic-feature-selection-text
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Preprocess the data:
-   ```bash
-   python preprocess_data.py
-   ```
-4. Train the Bidirectional LSTM model:
-   ```bash
-   python train_baseline_model.py
-   ```
-5. Run the RL agent:
-   ```bash
-   python train_rl_agent.py
-   ```
-
----
-
-## Future Work
-- Extend the RL environment to handle multilingual datasets.
-- Integrate other advanced embedding models, such as GPT or RoBERTa.
-- Evaluate performance on real-world text classification tasks like sentiment analysis and topic detection.
-
----
-
-## License
-This project is licensed under the MIT License. See `LICENSE` for more details.
-
----
-
-## Acknowledgments
-- Special thanks to the developers of JAX and NLPaug for their powerful libraries.
-- Inspired by state-of-the-art research in text classification and feature selection.
 
 
